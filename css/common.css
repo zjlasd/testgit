@@ -1,7 +1,7 @@
 .public-header {
     height: 814px;
     width: 1920px;
-    background: url("../images/top-ground.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/top-ground.png");
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
@@ -10,7 +10,7 @@
 .public-header .top-word {
     width: 994px;
     height: 214px;
-    background: url("../images/top-word.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/top-word.png");
     background-repeat: no-repeat;
     position: relative;
     top: 210px;
@@ -20,9 +20,7 @@
 .public-container {
     width: 1200px;
     height: 100%;
-    /* background-color: white; */
     margin: 0 auto;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -43,19 +41,16 @@
 
 .public-footer {
     height: 1010px;
-
-    background: url(../images/public-ground.png);
+    background: url(https://typora--image1.oss-cn-beijing.aliyuncs.com/public-ground.png);
     background-repeat: no-repeat;
-    background-position: center;
     position: relative;
     margin: auto;
-
 }
 
 .public-header .header-logo {
     width: 234px;
     height: 96px;
-    background: url("../images/index-header-logo.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/index-header-logo.png");
     background-color: #e8024d;
     background-repeat: no-repeat;
     background-position-y: 18px;
@@ -65,7 +60,7 @@
 .public-footer-logo {
     width: 1920px;
     height: 978px;
-    background: url("../images/public-footer.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/public-footer.png");
     background-repeat: no-repeat;
     background-position-x: center;
     margin: auto;
@@ -73,7 +68,7 @@
 }
 
 .public-footer-end {
-    background: url("../images/public-footer-end.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/public-footer-end.png");
     background-repeat: no-repeat;
     background-position-x: center;
     margin: auto;
@@ -82,7 +77,7 @@
 }
 
 .index1 {
-    height: 1324px;
+    height: 1832px;
     width: 1920px;
     margin: 0 auto;
     position: relative;
@@ -102,7 +97,7 @@
 .welcome-image {
     width: 420px;
     height: 100%;
-    background: url("../images/welcome-image.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/welcome-image.png");
 }
 
 .welcome-word {
@@ -115,7 +110,7 @@
     width: 364px;
     height: 240px;
     position: absolute;
-    background: url("../images/welcome-video.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/welcome-video.png");
     left: 118px;
     top: 330px;
 }
@@ -129,48 +124,44 @@
     font-weight: bold;
 }
 
-.welcome-gray {
 
-    height: 448px;
-    width: 1920px;
-    position: absolute;
-    background: url(../images/gray.png);
-}
 
-/* .kinds-content{
-    float: left;
-} */
+
 .kinds {
     height: 1150px;
-}
-
-.kinds-content div {
-    height: 214px;
-    width: 350px;
-    float: left;
-    margin: 25px;
-    font-size: 24px;
-}
-
-.kinds-content .kinds-title {
-    font-size: 27px;
-    margin: 0 auto;
-    height: 24px;
-    margin-bottom: 30px;
-    margin-top: 200px;
+    /* display: flex; */
 }
 
 .kinds-banner {
+    font-size: 45pt;
+}
 
-    background: url("../images/kinds-banner.png");
+.kinds-row div {
+    /* height: 214px; */
+    width: 375px;
+    height: 450px;
+    font-size: 19pt;
+    margin-top: 25px;
+}
 
-    background-repeat: no-repeat;
+.kinds .kinds-title {
+    font-size: 27px;
+    height: 24px;
+    /* margin-top: 25px; */
+}
 
-    height: 46px;
 
-    width: 302px;
-    position: absolute;
-    left: 808px;
+
+
+
+
+
+
+
+.kinds-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .kinds .button {
@@ -178,63 +169,67 @@
     height: 64px;
     background-color: black;
     margin: 0 auto;
-    position: absolute;
-    margin-top: 638px;
-    margin-left: 474px;
     font-size: 25pt;
     padding-top: 15px;
     padding-left: 20px;
     box-sizing: border-box;
-    color: white
+    color: white;
 }
 
 .kinds-pans-image {
     width: 1200px;
     height: 474px;
-    background: url("../images/kinds-pans-image.png");
-    position: absolute;
-    top: 1526px;
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/kinds-pans-image.png");
 }
 
 .Purchase {
-    height: 2000px;
+    height: 1250px;
     width: 1920px;
-    position: relative;
-    top: 650px;
     margin: 0 auto;
 }
 
 .pur-card {
     width: 812px;
     height: 370px;
-    /* background-color: darkcyan; */
+    background-color: #fff;
     margin: 60px auto;
+
+
 }
 
-.pur_showimg {
+.pur-card-box-image {
+    margin-top: 54px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 10px;
+    width: 188px;
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/pur-card-box-image.png");
+    background-repeat: no-repeat;
+}
+
+.pur-showimg {
     width: 883px;
     height: 650px;
-    background-color: pink;
+    /* background-color: pink; */
     margin: 0 auto;
 }
 
 .pur-card-title {
-    height: 58px;
+    /* height: 58px; */
     width: 302px;
     height: 102px;
-    background: url("../images/pur-card-title.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/pur-card-title.png");
     background-repeat: no-repeat;
     background-color: none;
     margin: 0 auto;
 }
 
 .pur-card-box {
-    width: 814px;
     height: 271px;
 }
 
-.Purchase .pur-card-box div {
-    background: url("../images/pur-card-box-div.png");
+.Purchase .pur-card-box-photo {
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/pur-card-box-div.png");
     height: 72px;
     width: 72px;
     margin: auto;
@@ -252,7 +247,7 @@
     height: 64px;
     width: 158px;
     background-color: red;
-    background: url("../images/pur-showimg-title.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/pur-showimg-title.png");
     margin: auto;
 }
 
@@ -274,33 +269,33 @@
 
 #pur-img1 {
     height: 221px;
-    background: url("../images/pur-img1.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/pur-img1.png");
 }
 
 #pur-img2 {
     height: 299px;
-    background: url("../images/pur-img2.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/pur-img2.png");
     background-position-x: -100px;
 }
 
 #pur-img3 {
     height: 365px;
-    background: url("../images/pur-img3.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/pur-img3.png");
 }
 
 #pur-img4 {
     height: 170px;
-    background: url("../images/pur-img4.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/pur-img4.png");
 }
 
 #pur-img5 {
     height: 221px;
-    background: url("../images/pur-img5.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/pur-img5.png");
 }
 
 #pur-img6 {
     height: 299px;
-    background: url("../images/pur-img6.png");
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/pur-img6.png");
 }
 
 .Purchase .button div {
@@ -313,4 +308,112 @@
     box-sizing: border-box;
     padding-top: 10px;
     margin-top: 76px;
+}
+
+.recommend .public-container {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.recommend-image {
+    /* display: inline-block; */
+    display: flex;
+    width: 376px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.recommend-text {
+    /* display: inline-block; */
+    display: flex;
+    width: 376px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.recommend p {
+    width: 434px;
+    height: 120px;
+    margin: 0 auto;
+    font-size: 19px;
+}
+
+.recommend-image .image1 {
+    height: 120px;
+    width: 380px;
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/recommend-image1.png");
+    background-position-y: -20px;
+}
+
+.recommend-image .image2 {
+    height: 120px;
+    width: 380px;
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/recommend-image2.png");
+    background-position-y: -90px;
+}
+
+.recommend-image .image3 {
+    height: 120px;
+    width: 380px;
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/recommend-image3.png");
+    background-position-y: -100px;
+}
+
+.recommed-botton {
+    width: 240px;
+    height: 64px;
+    background-color: red;
+    margin: 0 auto;
+    font-size: 25pt;
+    padding-top: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.backgrouund1 {
+    width: 100%;
+    height: 444px;
+    background-color: #eae7e8;
+    position: absolute;
+    top: -40px;
+}
+
+.backgrouund2 {
+    width: 100%;
+    height: 474px;
+    background-color: #dad8d9;
+    position: absolute;
+    opacity: 0.2;
+    top: 1275px;
+}
+
+.background3 {
+    width: 100%;
+    height: 350px;
+    background-color: #6f6d6d;
+    position: absolute;
+    top: 1750px;
+    z-index: -1;
+}
+
+.background4 {
+    width: 100%;
+    height: 340px;
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/background4.png");
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+}
+
+.recommend {
+    position: relative;
 }
