@@ -1,0 +1,150 @@
+
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font_3791971_8wltggy94j6/iconfont.woff2?t=1669376910989') format('woff2'),
+        url('../font_3791971_8wltggy94j6/iconfont.woff?t=1669376910989') format('woff'),
+        url('../font_3791971_8wltggy94j6/iconfont.ttf?t=1669376910989') format('truetype');
+  }
+
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: 'iconfont';  /* Project id 3791971 */
+    src: url('//at.alicdn.com/t/c/font_3791971_vqmzn1k6w6n.woff2?t=1669377698367') format('woff2'),
+         url('//at.alicdn.com/t/c/font_3791971_vqmzn1k6w6n.woff?t=1669377698367') format('woff'),
+         url('//at.alicdn.com/t/c/font_3791971_vqmzn1k6w6n.ttf?t=1669377698367') format('truetype');
+  }
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 50px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.index{
+    height: 1060px;
+    width: 600px;
+    margin: 0 auto;
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/background.png");
+    filter: brightness(125%);
+}
+.container{
+    width: 450px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header{
+    height: 112px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-back{
+    padding-left: 20px;
+    height: 50px;
+    width: 50px;
+    padding-top: 32px;
+    color: #81c2cb;
+}
+.icon-help{
+    padding-right: 20px;
+    height: 50px;
+    width: 50px;
+    padding-top: 32px;
+    color: #81c2cb;
+}
+.header .title{
+    height: 50px;
+    width: 120px;
+    padding-top: 32px;
+   padding-left: auto;
+   padding-right: auto;
+   font-size: 30px;
+   color: white;
+ 
+}
+.add{
+    height: 50px;
+    width: 50px;
+    color: #c2dbe3;
+}
+.photo{
+    height: 150px;
+    width: 150px;
+    background: url("https://typora--image1.oss-cn-beijing.aliyuncs.com/background-circle.png");
+    background-repeat: no-repeat;
+    margin: 56px auto 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo p{
+    font-size: 20px;
+    color: #c3dce4;
+}
+.FirstName{
+    border-bottom: 3px;
+    border: 0;
+}
+input {
+    outline: none;
+    display: block;
+    width: 450px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid;
+    border-color: #869ec1;
+    color: black;
+    height: 25px;
+    font-size: 20px;
+    }
+    label{
+        color: white;
+        font-size: 20px;
+    }
+    #Password{
+        border-bottom: 0px solid transparent;
+    }
+    input [type="password"]::-ms-clear{
+        display: none;
+    }
+    .input4 a{
+    top: 20px;
+        float: right;
+  
+    }
+    a:link{
+        color: #47cbae;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:visited{
+        color: #47cbae;
+    }
+    .sign-up{
+        font-size: 25pt;
+        color: #706d9f;
+        margin-top: 50px;
+        width: 444px;
+        height: 76px;
+        border-radius: 50px;
+        border: none;  
+    }
+   
+    button:active{
+        background-color: aqua;
+        color: white;
+    }
+ .sign-in{
+    text-align: center;
+height: 30px;
+    
+/* padding-right: 0px; */
+    
+float: none;
+    position: relative;
+    top: 20px;
+    }

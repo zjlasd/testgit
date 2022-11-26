@@ -1,0 +1,30 @@
+{
+  "id": "3791971",
+  "name": "sign-up",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2076243",
+      "name": " 增加",
+      "font_class": "zengjia",
+      "unicode": "e889",
+      "unicode_decimal": 59529
+    },
+    {
+      "icon_id": "1239241",
+      "name": "jinggao",
+      "font_class": "gantanhao",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "148899",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    }
+  ]
+}
